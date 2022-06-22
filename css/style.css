@@ -1059,9 +1059,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 20px 0;
   }
 
-  #contact .contact-phone {
+  #contact .contact-email {
     border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
   }
 }
 
@@ -1148,4 +1147,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact #google-map {
     margin-top: 20px;
   }
+}
+
+
+/*--------------------------------------------------------------
+# Youtube
+--------------------------------------------------------------*/
+#youtube .btn-get-started {
+  background: #41AEE4;
+  border: 2px solid #41AEE4;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
+
+#youtube .btn-get-started :hover {
+  background: none;
+  color: #41AEE4;
 }
